@@ -36,3 +36,12 @@ const student = {
 
 student.age = student.age + 2;
 
+
+//PRACTICE QUE LECTURE 1
+// Q1
+const product = {
+    name : "Ball Pen",
+    rating: 4,
+    isOffer: true,
+    price: 270,
+};
