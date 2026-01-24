@@ -25,3 +25,14 @@ let y = null;
 let a = BigInt("123");
 let b = Symbol("Hello!");
 
+//NONPRIMITIVE
+//By creating OBJECTS
+const student = {
+    fullName : "Sakshi Bhosle",
+    age : 20,
+    cgpa : 9.3,
+    isPass: true,
+};
+
+student.age = student.age + 2;
+
