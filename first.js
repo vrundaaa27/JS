@@ -45,3 +45,17 @@ const product = {
     isOffer: true,
     price: 270,
 };
+
+console.log(typeof product.isOffer);
+
+//Q2
+const profile = {
+    username: "@Shraddha Khapra",
+    posts: 195,
+    followers: 593,
+    following: 4,
+    isFollow: false,
+    about: "Enterpreneur",
+};
+
+console.log(typeof profile.isFollow)
