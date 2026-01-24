@@ -2,14 +2,26 @@
 console.log("Apna College");
 console.log("Hey this is Vrunda");
 
+
 /* VARIABLES IN JS */
 // fullName = "Vrunda Mhaske";
 // console.log(fullName);
 
+
 /* let, const and var in JS*/
-var age = 12;
-let fullName = "Vrunda";
-fullName = "Mhaske"; //let can only be updated
-const cgpa = "8.2";
+// var age = 12;
+// let fullName = "Vrunda";
+// fullName = "Mhaske"; //let can only be updated
+// const cgpa = "8.2";
 // cgpa = "9";  //const cannot be redeclared or updated
+
+
+/* DATA TYPES IN JS */
+// PRIMITIVE
+let age = 20;
+let name ="Tony";
+let x;
+let y = null;
+let a = BigInt("123");
+let b = Symbol("Hello!");
 
