@@ -3,5 +3,13 @@ console.log("Apna College");
 console.log("Hey this is Vrunda");
 
 /* VARIABLES IN JS */
-fullName = "Vrunda Mhaske";
-console.log(fullName);
+// fullName = "Vrunda Mhaske";
+// console.log(fullName);
+
+/* let, const and var in JS*/
+var age = 12;
+let fullName = "Vrunda";
+fullName = "Mhaske"; //let can only be updated
+const cgpa = "8.2";
+// cgpa = "9";  //const cannot be redeclared or updated
+
