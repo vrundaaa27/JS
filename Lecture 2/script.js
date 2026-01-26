@@ -132,3 +132,27 @@ console.log( "a !== b", a !== b);
 a=5;
 b=5;
 console.log( "a !== b", a !== b);
+
+
+//LOGICAL OPERATORS
+// AND &&
+c = 5;
+d = 6;
+console.log("c != d && c < d", c != d && c < d);
+console.log("c == d && c > d", c == d && c > d);
+console.log("c == d && c < d", c == d && c < d);
+console.log("c != d && c > d", c != d && c > d);
+
+// OR ||
+c = 5;
+d = 6;
+console.log("c != d || c < d", c != d || c < d);
+console.log("c == d || c < d", c == d || c < d);
+console.log("c != d || c > d", c != d || c > d);
+console.log("c == d || c > d", c == d || c > d);
+
+//NOT !
+c = 5;
+d = 6;
+console.log( "c != d", c != d);
+console.log( "d != 6", d != 6);
