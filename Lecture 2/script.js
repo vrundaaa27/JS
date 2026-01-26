@@ -46,7 +46,7 @@ console.log( " a ** b = ", a ** b);
 // console.log(b);
 
 
-//ASSIGNMENT
+//ASSIGNMENT 
 // =
 c = 5;
 d = 6;
@@ -81,3 +81,54 @@ console.log("c %=", c %= 2);
 c = 5;
 d = 6;
 console.log("c **=", c **= 2);
+
+
+//COMPARISION 
+//EQUAL TO ==
+a=5;
+b=6;
+console.log( "a == b", a == b);
+
+//NOT EQUAL TO !=
+a=5;
+b=6;
+console.log( "a != b", a != b);
+
+//GREATER THAN >
+a=5;
+b=6;
+console.log( "a > b", a > b);
+
+//LESS THAN <
+a=5;
+b=6;
+console.log( "a < b", a < b);
+
+//GREATER THAN EQUAL TO >=
+a=5;
+b=5;
+console.log( "a >= b", a >= b);
+
+//LESS THAN EQUAL TO <=
+a=5;
+b=6;
+console.log( "a <= b", a <= b);
+
+//STRICTER 
+//EQUAL TO ===
+a=5;
+b="5";
+console.log( "a === b", a === b);
+
+a=5;
+b=5;
+console.log( "a === b", a === b);
+
+//NOT EQUAL TO !==
+a=5;
+b="6";
+console.log( "a !== b", a !== b);
+
+a=5;
+b=5;
+console.log( "a !== b", a !== b);
