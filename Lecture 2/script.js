@@ -157,3 +157,39 @@ d = 6;
 console.log( "c != d", c != d);
 console.log( "d != 6", d != 6);
 
+
+//CONDITIONAL STATEMENTS IN JS
+
+//if statement
+let age = 25;
+if(age >= 18){
+    console.log(" You can VOTE")
+}
+if(age <= 18){
+    console.log(" You CANNOT VOTE")
+}
+
+//if-else statement
+let age1 = 1;
+if(age1 >= 18){
+    console.log(" You can VOTE")
+}else{
+    console.log(" You CANNOT VOTE")
+}
+
+//else-if statement
+let mode = "red";
+
+if(mode === "dark"){
+    console.log("black");
+}else if(mode === "pink"){
+    console.log("pink");
+}else if(mode === "blue"){
+    console.log("blue");
+}else{
+    console.log("white");
+}
+
+//ONE LINE STATEMENT
+let mode1 = "dark";
+if(mode1 === "dark") console.log(mode1);
