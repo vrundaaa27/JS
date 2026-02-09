@@ -193,3 +193,20 @@ if(mode === "dark"){
 //ONE LINE STATEMENT
 let mode1 = "dark";
 if(mode1 === "dark") console.log(mode1);
+
+//TERNARY OPERATOR
+// let age2 = 25;
+// let result =age2>18? "adult" : "not adult";
+// console.log(result);
+
+let age2 = 17;
+age2 > 18? console.log("adult") : console.log("not adult");
+
+//Alert and Prompt
+alert("HELLO");
+
+prompt("Hello!");
+
+//Eg
+let name = prompt("What is your name?");
+console.log(name);
