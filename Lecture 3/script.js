@@ -1,3 +1,5 @@
+//LOOPS IN JS
+
 //FOR LOOP
 
 for(let a = 1; a <= 5; a++){
@@ -67,3 +69,16 @@ for(let key in student){
     console.log("key =",key, " value =",student[key]);
 }
 
+
+//STRINGS IN JS
+let str = "ApnaCollege";
+let str2 = 'Vrunda';
+
+console.log("str[2] =", str[2]);
+
+//TEMPLATE LITERALS
+let name = "Vrunda";
+let age = 21;
+let city = "Pune";
+console.log("My name is",name, ".I'm",age, "years old. I live in",city,"city.");
+console.log(`My name is ${name}. I'm ${age} years old. I live in ${city} city.`);
