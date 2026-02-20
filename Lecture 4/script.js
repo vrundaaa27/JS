@@ -63,3 +63,6 @@ console.log(arr);
 arr.splice(0,1,'000','101');
 console.log(arr);
 console.log(arr.length);
+//When splice acts as slice
+arr.splice(2);
+console.log(arr);
